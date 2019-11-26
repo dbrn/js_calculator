@@ -1,0 +1,13 @@
+{
+  "name": "js_calculator",
+  "version": "1.0.0",
+  "description": "A simple JS calculator with CSS3 and HTML5 interface",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm-run-all --parallel compile:sass server",
+    "server": "live-server",
+    "compile:sass": "node-sass SASS/base.scss CSS/style.css -w"
+  },
+  "author": "Barzi",
+  "license": "ISC"
+}
